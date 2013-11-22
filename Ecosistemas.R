@@ -3,7 +3,6 @@ library (rgdal)
 library (dismo)
 
 # load the species range 
-setwd ("C:\\Users\\sara\\Documents\\_CIENCIAS\\sampling")
 sp<- raster ("POTENTIAL_D.rst")
 mask<- raster ("mask.rst")
 map_sp=sp+mask
